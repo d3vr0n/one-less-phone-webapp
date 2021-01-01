@@ -1,0 +1,45 @@
+<!-- Tabs navs nav nav-tabs nav-fill mb-3-->
+<div class="container">
+
+    <nav ngbNav #nav="ngbNav" class="nav nav-tabs nav-fill mb-3 mt-2">
+        <ng-container ngbNavItem>
+            <a ngbNavLink>SMS List</a>
+            <ng-template ngbNavContent>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Cras justo odio</li>
+                    <li class="list-group-item">Dapibus ac facilisis in</li>
+                    <li class="list-group-item">Morbi leo risus</li>
+                    <li class="list-group-item">Porta ac consectetur ac</li>
+                    <li class="list-group-item">Vestibulum at eros</li>
+                  </ul>
+            </ng-template>
+        </ng-container>
+        <ng-container ngbNavItem>
+            <a ngbNavLink>Call Logs</a>
+            <ng-template ngbNavContent>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Cras justo odio</li>
+                    <li class="list-group-item">Dapibus ac facilisis in</li>
+                    <li class="list-group-item">Morbi leo risus</li>
+                    <li class="list-group-item">Porta ac consectetur ac</li>
+                    <li class="list-group-item">Vestibulum at eros</li>
+                  </ul>
+            </ng-template>
+        </ng-container>
+        <ng-container ngbNavItem>
+            <a ngbNavLink>Notifications</a>
+            <ng-template ngbNavContent>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Cras justo odio</li>
+                    <li class="list-group-item">Dapibus ac facilisis in</li>
+                    <li class="list-group-item">Morbi leo risus</li>
+                    <li class="list-group-item">Porta ac consectetur ac</li>
+                    <li class="list-group-item">Vestibulum at eros</li>
+                  </ul>
+            </ng-template>
+        </ng-container>
+    </nav>
+
+    <div [ngbNavOutlet]="nav" class="mt-2"></div>
+
+</div>
