@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "one-less-phone": {
+      "hosting": {
+        "one-less-phone-web-viewer": [
+          "one-less-phone"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "one-less-phone"
+  }
+}
