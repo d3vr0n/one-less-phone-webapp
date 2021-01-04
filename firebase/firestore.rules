@@ -22,5 +22,9 @@ service cloud.firestore {
    		allow read: if request.auth.uid == userId;
       allow write: if request.auth.uid == userId;
 		}
+    match /user/{userId}/callring/{document=**} {
+   		allow read: if request.auth.uid == userId;
+      allow write: if request.auth.uid == userId;
+		}
   }
 }

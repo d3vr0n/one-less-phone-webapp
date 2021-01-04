@@ -7,3 +7,10 @@ export interface CallLog {
     label: string;
     date_str : string;
 }
+
+export interface CallEvent {
+    number: string;
+    date: number;
+    date_str : string;
+    isRinging: boolean;
+}
